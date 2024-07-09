@@ -1,0 +1,48 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container{
+    background-color: #93c5fd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    background-color: white;
+    height: 50vh;
+    width: 70vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading{
+    color: #323f4b;
+    font-family: "Roboto";
+    align-self: center;
+}
+.row-container{
+    display: flex;
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    align-items: center;
+    border: 0;
+}
+.select-el{
+    font-size: 24px;
+    padding: 12px;
+    margin-right: 16px;
+    color: black;
+}
+.para{
+    font-size: 24px;
+}
+.country-para{
+    align-self: flex-start;
+    color: #1e293b;
+    font-size: 48px;
+}
